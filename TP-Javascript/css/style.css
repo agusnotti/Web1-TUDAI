@@ -1,0 +1,39 @@
+#btn-rojo{
+    background-color: red;
+    
+}
+
+#btn-verde{
+    background-color:green
+}
+
+#btn-azul{
+    background-color: blue;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.color-div{
+    background-color: blueviolet;
+    border: 3px solid red;
+}
+
+.contenedor{
+    width:100px;
+    height:100px;
+}
+
+.oculto{
+    display: none;
+}
+
+.nuevoDiv{
+    border: 1px solid seagreen;
+    width: 100px;
+    height: 100px;
+    background-color: seagreen;
+}

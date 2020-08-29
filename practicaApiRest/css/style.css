@@ -1,0 +1,81 @@
+body{
+    background-color:darkgrey;
+}
+.container{
+    display: flex;    
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.formulario-notas{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: center;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+h1, 
+h2{
+    width: 100%;
+    text-align: center;
+}
+
+.formulario-notas input{
+    width: 70%;
+    margin: 5px 5px 5px 0;
+}
+
+.formulario-notas label{
+    width: 20%;
+    margin: 5px 0 5px 5px;;
+}
+
+.btn-agregar, 
+.btns-tabla{
+    width: 35%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+}
+
+.btn-agregar:hover, 
+.btns-tabla:hover{
+    background-color: rgb(0, 138, 126);
+}
+
+.btn-edit{
+    background-color: rgb(255, 166, 0);
+}
+.btn-delete{
+    background-color:rgb(255, 0, 0);
+}
+
+table, 
+th, 
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    width: 60%;
+}
+
+td{
+    background-color: white;
+}
+
+thead,
+.btn-agregar{
+    background-color: rgb(2, 189, 173);
+}
+

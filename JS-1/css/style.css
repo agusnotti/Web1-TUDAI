@@ -1,0 +1,35 @@
+img{
+    width: 80%;
+    padding: 4px;
+}
+
+.prendida{
+    background-color: lightyellow;
+}
+
+.apagada{
+    background-color: black;
+}
+
+#fondo{
+    display: flex;
+    justify-content: center;
+}
+
+.lampara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+#btn-prender-apagar{
+    width: 150px;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    padding: 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+    
+}

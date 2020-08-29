@@ -1,0 +1,21 @@
+.arco-iris {
+  border: 1px solid black;
+  width: 500px;
+  height: 250px;
+}
+
+.color1 {
+    background-color: rgb(255, 230, 0);
+}
+.color2 {
+    background-color: rgb(4, 235, 243);
+}
+.color3 {
+    background-color: rgb(16, 219, 16);
+}
+.color4 {
+    background-color: rgb(161, 12, 161);
+}
+.color5 {
+    background-color: orange;
+}

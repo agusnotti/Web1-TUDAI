@@ -1,0 +1,51 @@
+html{
+    font-family: 'Seeding';
+    font-size: 12px;
+    color: #696969;
+}
+
+.row1 div, .row2 div{
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+}
+
+nav{
+    font-family: 'TrueRomans';
+}
+
+img{
+    border: 2px dotted;
+}
+
+img:hover{
+    border: 6px dotted;
+}
+
+/*Duda sobre la consigna. Se considera que el que debe tomar fondo amarillo y color de fuente rojo 
+son los items que tienen clase .resaltado dentro de la lista
+La otra posibilidad era ul.resaltado li*/
+
+ul li.resaltado{
+    color:red;
+    background-color: yellow;
+}
+
+@media only screen and (min-width: 600px) {
+    
+    .row1, .row2 {
+        display: grid;
+    }
+
+    .row1{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .row2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .row1 h1, .row2 h1{
+        font-size: 4em;
+    }
+}

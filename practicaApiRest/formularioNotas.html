@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Notas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="js/cargarNotas.js"></script>
+</head>
+<body>
+    <h1>Notas alumnos</h1>
+    <div class="container">
+
+        <table id="tabla-notas">
+            <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Promedio</th>
+                <th ></th>
+            </thead>
+        </table>
+        
+        <form class="formulario-notas">
+            <h2>Cargar notas</h2>
+            <label for="nombre">Nombre: </label><input type="text" name="Nombre" id="nombre">
+            <label for="nombre">Apellido: </label><input type="text" name="Apellido" id="apellido">
+            <label for="nombre">DNI: </label><input type="text" name="dni" id="dni">
+            <label for="nombre">Nota 1: </label><input type="text" id="nota-1">
+            <label for="nombre">Nota 2: </label><input type="text" name="Nota-2" id="nota-2">
+            <label for="nombre">Nota 3: </label><input type="text" name="Nota-3" id="nota-3">
+            <button class="btn-agregar" id="btn-agregar">AGREGAR</button>
+        </form>
+        
+    </div>
+</body>
+</html>

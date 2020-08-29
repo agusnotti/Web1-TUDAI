@@ -1,0 +1,36 @@
+div{
+    background-color: aqua;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    text-align: left;
+
+}
+
+.content{
+    height: 400px;   
+}
+
+h1{
+    margin: 4px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item{
+    list-style: none;
+    background-color: black;
+    margin: 0 2px;
+    border-radius: 20%;
+    padding: 15px;
+    color: blanchedalmond;
+}
+
+li:hover{
+    background-color: blue;
+}
+
+

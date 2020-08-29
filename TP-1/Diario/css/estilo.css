@@ -1,0 +1,141 @@
+.tituloPpal {
+    color: #966E90;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.seccion-noticia{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+  padding:5px;
+  margin:5px;
+}
+
+.noticia{
+  display: flex;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 20px;
+}
+.navigation{
+  display: flex;
+  padding:0;
+  align-items: center;
+}
+
+.item-navigation{
+  list-style: none;
+  background-color:#966E90;
+  color:white;
+  margin:0 5px;
+  padding: 10px;
+  border-radius: 10%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.item-navigation:hover{
+  background-color: grey;
+}
+
+
+footer {
+    background-color:#966E90;
+    height: 50px;
+}
+
+h1{
+    color: #966E90;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color: #966E90;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #C7C7C3;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    background-image: url('../img/fondo.jpg');
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #966E90;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  color: #eee;
+  
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #eee;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #eee;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #eee;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+a{
+    color: #966E90;
+}
+
+a:hover{
+    color: rgb(116, 42, 116);
+    font-weight:bold;
+}
+
+.resaltado{
+    font-weight: bold;
+}
+
+.cita{
+  font-style: oblique;
+}

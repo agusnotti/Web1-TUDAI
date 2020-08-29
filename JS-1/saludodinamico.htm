@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+        
+        <input id="nombre" value="" onInput="saludarEnDOM();" value="nombre" type="text"> <!-- MALA PRACTICA!! codigo js en html-->
+
+    </form>
+    <h1>Bienvenido <span id="saludo"></span> </h1>
+
+    <button id="btn">Aprete aqui</button> <!-- capturo el boton con el id y le asigno el evento con addEvenListener desde js, asi mantengo los lenguajes separados-->
+
+    <h2 id="consejo"> </h2>
+
+    <div id="divSaludo"></div>
+
+
+
+    <script src="js/saludodinamico.js"></script>
+</body>
+</html>

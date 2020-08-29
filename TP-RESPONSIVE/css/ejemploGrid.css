@@ -1,0 +1,38 @@
+/* Page Layout */
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "sidebar"
+    "footer";
+}
+/* posicionamos los elementos donde queremos */
+header {
+  grid-area: header;
+  background-color: chartreuse;
+}
+.main {
+  grid-area: main;
+  background-color: rgb(40, 40, 204);
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: rgb(175, 54, 54);
+}
+footer {
+  grid-area: footer;
+  background-color: blueviolet;
+}
+/* solo para pantallas superiores a 660px */
+@media only screen and (min-width: 660px) {
+  /* Page Layout */
+  .container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas:
+      "header header"
+      "main sidebar"
+      "footer footer";
+  }
+}

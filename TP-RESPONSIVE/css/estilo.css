@@ -1,0 +1,146 @@
+header {
+  background-color: #ff4945;
+  padding: 20px 10px;
+}
+
+.main {
+  color: white;
+  background-color: #ffa931;
+  padding: 10px;
+
+  min-height: 300px; /* solo para el ejemplo */
+}
+
+.sidebar {
+  color: white;
+  background-color: #9b0579;
+  padding: 10px;
+
+  min-height: 300px; /* solo para el ejemplo */
+}
+
+footer {
+  color: white;
+  background-color: #00778f;
+  padding: 20px 10px;
+}
+
+.divA{
+  background-color: rgb(240, 51, 130);
+  display: grid;
+}
+
+.divB{
+  background-color: rgb(250, 217, 108);
+}
+
+.divC{
+  background-color: rgb(37, 245, 165);
+  border: 1px dotted black;
+  margin: 10px;
+}
+
+
+/* agregamos un contenedor flex que envuelven las cajas centrales */
+.contenedor-central {
+  display: flex;
+  flex-direction: column;
+}
+
+/* agregamos un contenedor grid*/
+.contenedor-GRID{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+.btn_menu {
+  color: white;
+  padding: 15px;
+}
+
+.btn_menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  border-bottom: 4px solid gray;
+  width: 100%;
+  display: flex;
+  background-color: black; 
+}
+
+ul.navigation {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: none;
+  flex-direction: column;
+}
+
+  /* si tiene tambien la clase show */
+  ul.navigation.show {
+      display: flex;
+  }
+
+ul.navigation li {
+  list-style: none;
+  margin: 0px 0px;
+  padding: 15px 20px;
+}
+
+ul.navigation li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul.navigation li:hover {
+  background-color: gray;
+}
+
+
+
+/* aplicamos reglas solo para pantallas superiores a 660px */
+
+/*Si el ancho del dispositivo es MAYOR o igual que 600px entonces
+{aplicá estas reglas}
+*/
+@media only screen and (min-width: 660px) {
+  .contenedor-central {
+    flex-direction: row;
+  }
+
+  .contenedor-GRID{
+    grid-template-columns: 4fr 1fr;
+  }
+
+  .divA{
+    text-align: center;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  }
+
+  /* definimos anchos proporcionales a las columnas */
+  .main {
+    flex-grow: 4;
+  }
+  .sidebar {
+    flex-grow: 1;
+  }
+
+  /* en desktop ocultamos siempre el boton del menu */
+  .btn_menu {
+    display: none;
+ }
+
+  /* cambiamos la direccion del flex */
+ ul.navigation {
+     display: flex;
+     flex-direction: row;
+ }
+
+
+
+}
+
+

@@ -1,0 +1,19 @@
+p {
+    color: red;
+}
+
+h1 {
+    color: green;
+}
+
+body {
+    background-color: grey;
+}
+
+.p1 {
+    color: pink;
+}
+
+/* selector {
+    propiedad: valor
+} */

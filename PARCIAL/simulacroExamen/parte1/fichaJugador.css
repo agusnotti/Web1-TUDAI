@@ -1,0 +1,86 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {  
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 10px;
+}
+
+.content-ficha h1, 
+.content-ficha h2,
+.content-ficha h3,
+.content-ficha h4,
+.content-ficha h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+.content-ficha{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black; 
+}
+
+.content-ficha:hover{
+    background-color: grey;
+}
+.encabezadoFicha {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+
+}
+
+.datosJugador{
+    display: flex;
+    align-items: center;
+}
+
+.encabezadoFicha img {
+  width: 20%;
+}
+
+.imagenJugador img{
+    width: 95%;
+    border: 2px solid black;
+    margin: 6px;
+}
+
+.posicionJugador {
+  border-top: 1px solid black;
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    
+    .encabezadoFicha{
+        width: 100%;
+    }
+
+    .imagenJugador, .datosJugador{
+        width: 48%;
+        padding: 5px;
+    }
+
+    .datosJugador ul li{     
+        padding-left: 20px;
+        font-size: 23px;
+    }   
+
+    .nombreJugador{
+        font-size: xx-large;;
+    }
+
+    .encabezadoFicha img {
+        width: 10%;
+    }
+    
+}
